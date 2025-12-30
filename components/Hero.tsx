@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from "../IMG/1.jpg"; // Make sure your image is in src/IMG/1.jpg
 
 const Hero: React.FC = () => {
   return (
@@ -9,7 +8,7 @@ const Hero: React.FC = () => {
       <div
         className="absolute inset-0 bg-cover bg-center transition-transform duration-[10000ms] scale-110 hover:scale-100"
         style={{
-          backgroundImage: `url(${Image})`,
+          backgroundImage: `url("/1.jpg")`,
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent"></div>
