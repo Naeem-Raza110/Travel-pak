@@ -5,5 +5,5 @@ Fully responsive with hover effects and mobile navigation.
 
 ---
 
-## **Folder Structure**
+
 
